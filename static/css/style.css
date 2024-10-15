@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: 'Heebo', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+h1, h3, h4, .display-3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+/* Navbar */
+.navbar-dark {
+    background-color: #343a40;
+}
+
+.navbar-brand h1 {
+    font-size: 1.75rem;
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #ddd;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+/* Hero Section */
+.hero-header {
+    background-color: #212529;
+    background-image: url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation-delay: 0.5s;
+}
+
+.hero-header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-header .btn-primary {
+    font-size: 1.2rem;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.8rem 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero-header .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Service Section */
+.service-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* About Section */
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #007bff;
+}
+
+.about-section img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.about-section img:hover {
+    transform: scale(1.05);
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+/* Statistics Section */
+.display-5 {
+    font-size: 3.5rem;
+    color: #007bff;
+}
+
+.border-primary {
+    border-color: #007bff !important;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.ps-4 {
+    padding-left: 1.5rem !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-header p {
+        font-size: 1rem;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .service-item {
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-header .btn-primary {
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+    }
+
+    .about-section img {
+        width: 100%;
+    }
+}
