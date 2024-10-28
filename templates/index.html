@@ -2,145 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yaki Manihot</title>
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaki Web</title>
     <link href="../static/css/style.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar & Hero -->
-    <div class="container-xxl position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i></h1>
-            </a>
-            <button class="navbar-toggler" type="button">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0 pe-4">
-                    <a href="" class="nav-item nav-link active">Home</a>
-                    <a href="" class="nav-item nav-link">About</a>
-                    <a href="" class="nav-item nav-link">Service</a>
-                    <a href="" class="nav-item nav-link">Menu</a>
-                    <a href="" class="nav-item nav-link">Contact</a>
-                </div>
-            </div>
-        </nav>
 
-        <div class="container-xxl py-5 bg-dark hero-header mb-5">
-            <div class="container my-5 py-5">
-                <div class="row align-items-center g-5">
-                    <div class="col-lg-6 text-center text-lg-start">
-                        <h1 class="display-3 text-white animated sliderInLeft">Crunch Into Happiness!</h1>
-                        <p class="text-white animated sliderInLeft mb-4 pb-2">Yaki Manihot is a</p>
-                        <a href="" class="btn btn-primary py-sm-3 px-sm-5 sliderInLeft">Order!</a>
-                    </div>
-                    <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                        <img src="img/hero.png" width="490px" class="img-fluid" alt="">
-                    </div>
-                </div>
+    <!-- Navbar Section -->
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="#index">Home</a>
+            <a href="#about">About</a> <!-- Change to #about for in-page scrolling -->
+            <a href="#menu">Menu</a>
+        </div>
+        <div class="logo">
+            <span class="yaki">yaki</span><span class="manihot">manihot</span>
+        </div>
+        <div class="nav-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button>🔍</button>
             </div>
+            <a href="#contact">Contact</a>
+            <span class="icon">🛒</span> <!-- Shopping cart icon -->
         </div>
     </div>
-    <!-- Navbar & Hero Ends -->
 
-    <!-- Service Section Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item rounded pt-3">
-                        <div class="p-4">
-                            <i style="font-size: 3em;">🍠</i>
-                            <h3>Best Quality</h3>
-                            <p>Keripik singkong soon</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
-                    <div class="service-item rounded pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-cart-plus text-primary"></i>
-                            <h3>Online Order</h3>
-                            <p>Can be ordered online via e-commerce</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
-                    <div class="service-item rounded pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-headset text-primary"></i>
-                            <h3>24/7 Service</h3>
-                            <p>Ask us anything!</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Main Content Section -->
+    <div class="container">
+        <div class="content">
+            <h1>crunch into happiness! <span>🔥</span></h1>
+            <p>Experience the fiery kick of our crunchy, spicy snacks. Perfectly crafted to spice up your day and satisfy your cravings.</p>
+            <div class="btn-container">
+                <button class="btn btn-order">Order Now</button>
+                <button class="btn btn-pickup">Pick-up Order</button>
             </div>
         </div>
-    </div>
-    <!-- Service Section End -->
-
-    <!-- About Section Start-->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6">
-                    <div class="row g-3">
-                        <div class="col-6 text-start">
-                            <img class="img-gluid rounded w-100 wow zoomIn" src="img/about-1.jpg" alt="">
-
-                        </div>
-                        <div class="col-6">
-                            <img class="img-gluid rounded w-100 wow zoomIn" src="img/about-2.jpg" alt="">
-                        </div>
-                        <div class="col-6">
-                            <img class="img-gluid rounded w-100 wow zoomIn" src="img/about-3.jpg" alt="">
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h4 class="section-title ff-secondary text-start text-primary fw-normal">About Us!</h4>
-                    <h1 class="mb-4">Welcome to <i style="font-size: 1em;">🍠</i> Yaki Manihot</h1>
-                    <p class="mb-4">Yaki Manihot is a</p>
-                    <p class="mb-4">Best chips snack</p>
-                    <div class="row g-4 mb-4">
-                        <div class="col-sm-6">
-                            <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                <h1 class="flex-shrink-0 display-5 text-primary mb-0">100</h1>
-                                <div class="ps-4">
-                                    <p class="mb-0">Packs Sold this Month</p>
-                                    <h6 class="text-uppercase mb-0"></h6>
-
-                                </div>
-
-                                
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
+        <div class="image-container">
+            <img src="foto" alt="Yaki product">
         </div>
     </div>
+<br>
+<br>
+<br>
+    <!-- About Section -->
+    <div id="about" class="about-section">
+        <h1>About Us</h1>
+        <p>Welcome to Yaki Manihot! We’re passionate about delivering delicious and spicy snacks that bring happiness to your day.</p>
+    </div>
+<br>
+     <!-- Menu Section -->
+     <div id="menu" class="menu-section">
+        <h1>Our Menu</h1>
+        <p>Explore our range of spicy and crunchy delights!</p>
+    </div>
+<br>
+    <!-- Contact Page Content -->
+    <div id="contact" class="contact-section">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you! Get in touch with us for any inquiries.</p>
+    </div>
+
 </body>
 </html>
