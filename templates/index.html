@@ -45,24 +45,138 @@
     </div>
 <br>
 <br>
-<br>
+
     <!-- About Section -->
     <div id="about" class="about-section">
-        <h1>About Us</h1>
-        <p>Welcome to Yaki Manihot! We’re passionate about delivering delicious and spicy snacks that bring happiness to your day.</p>
+        <span class="about-title">About us</span>
+        <h1>Rasa Otentik, Gurih, dan Pedas yang Bikin Nagih</h1>
+        <p>Selamat datang di Yaki Manihot! Kami menghadirkan keripik singkong yang renyah dengan cita rasa pedas dan gurih yang pas untuk setiap suasana. Dibuat dari bahan pilihan dan diproses dengan teknik tradisional, keripik kami tak hanya lezat tetapi juga penuh dengan kehangatan dan keautentikan. Rasakan kerenyahan yang sempurna di setiap gigitan dan nikmati kenikmatan yang membuat Anda ingin lagi dan lagi. Yaki Manihot – Teman camilan terbaik untuk menemani hari-harimu!</p>
+        <ul>
+            <li>Renyah dan gurih dengan sentuhan rasa pedas yang menggoda</li>
+            <li>Diproses dari bahan-bahan pilihan untuk kualitas terbaik</li>
+            <li>Cocok untuk dinikmati kapan saja dan di mana saja</li>
+        </ul>
+        <button class="read-more-btn">Read More</button>
     </div>
-<br>
+
      <!-- Menu Section -->
-     <div id="menu" class="menu-section">
+    <div id="menu" class="menu-section">
         <h1>Our Menu</h1>
         <p>Explore our range of spicy and crunchy delights!</p>
+
+        <!-- Menu Tabs -->
+        <div class="menu-tabs">
+            <button class="tab active" onclick="showCategory('makanan')">Makanan</button>
+            <button class="tab" onclick="showCategory('minuman')">Minuman</button>
+        </div>
+
+        <!-- Makanan Section -->
+        <div id="makanan" class="menu-category">
+            <div class="menu-item">
+                <span class="badge mkecil">20 gr</span>
+                <img src="your_image_path/20gr_image.png" alt="20 gr">
+                <h3>Pedas Daun Jeruk</h3>
+                <p>Ukuran 20 gram. Rasa pedas khas dengan daun jeruk.</p>
+                <p class="price">Rp5.000</p>
+                <button class="select-btn">Select</button>
+            </div>
+
+            <div class="menu-item">
+                <span class="badge msedang">50 gr</span>
+                <img src="your_image_path/50gr_image.png" alt="50 gr">
+                <h3>Pedas Daun Jeruk</h3>
+                <p>Ukuran 50 gram. Rasa pedas gurih dengan aroma daun jeruk.</p>
+                <p class="price">Rp10.000</p>
+                <button class="select-btn">Select</button>
+            </div>
+
+            <div class="menu-item">
+                <span class="badge mbesar">100 gr</span>
+                <img src="your_image_path/100gr_image.png" alt="100 gr">
+                <h3>Pedas Daun Jeruk</h3>
+                <p>Ukuran 100 gram. Pedas menggigit dengan cita rasa daun jeruk.</p>
+                <p class="price">Rp15.000</p>
+                <button class="select-btn">Select</button>
+            </div>
+
+            <div class="menu-item">
+                <span class="badge mkecil">20 gr</span>
+                <img src="your_image_path/100gr_image.png" alt="100 gr">
+                <h3>Asin Daun Jeruk</h3>
+                <p>Ukuran 100 gram. Pedas menggigit dengan cita rasa daun jeruk.</p>
+                <p class="price">Rp15.000</p>
+                <button class="select-btn">Select</button>
+            </div>
+
+            <div class="menu-item">
+                <span class="badge msedang">50 gr</span>
+                <img src="your_image_path/100gr_image.png" alt="100 gr">
+                <h3>Asin Daun Jeruk</h3>
+                <p>Ukuran 100 gram. Pedas menggigit dengan cita rasa daun jeruk.</p>
+                <p class="price">Rp15.000</p>
+                <button class="select-btn">Select</button>
+            </div>
+
+            <div class="menu-item">
+                <span class="badge mbesar">100 gr</span>
+                <img src="your_image_path/100gr_image.png" alt="100 gr">
+                <h3>Asin Daun Jeruk</h3>
+                <p>Ukuran 100 gram. Pedas menggigit dengan cita rasa daun jeruk.</p>
+                <p class="price">Rp15.000</p>
+                <button class="select-btn">Select</button>
+            </div>
+
+        </div>
+
+        <!-- Minuman Section -->
+        <div id="minuman" class="menu-category" style="display: none;">
+            <div class="menu-item">
+                <span class="badge mkecil">250 mL</span>
+                <img src="your_image_path/250ml_image.png" alt="250 mL">
+                <h3>Coklat</h3>
+                <p>Minuman coklat segar dengan ukuran 250 mL.</p>
+                <p class="price">Rp8.000</p>
+                <button class="select-btn">Select</button>
+            </div>
+
+            <div class="menu-item">
+                <span class="badge mbesar">350 mL</span>
+                <img src="your_image_path/350ml_image.png" alt="350 mL">
+                <h3>Ori</h3>
+                <p>Minuman ori dengan rasa klasik dalam ukuran 350 mL.</p>
+                <p class="price">Rp10.000</p>
+                <button class="select-btn">Select</button>
+            </div>
+        </div>
     </div>
+
 <br>
     <!-- Contact Page Content -->
     <div id="contact" class="contact-section">
         <h1>Contact Us</h1>
         <p>We would love to hear from you! Get in touch with us for any inquiries.</p>
+        
+        <div class="contact-methods">
+            <a href="https://wa.me/soon" target="_blank" class="contact-link">
+                <img src="path/to/whatsapp-logo.png" alt="WhatsApp" class="contact-logo">
+                WhatsApp
+            </a>
+            
+            <a href="https://www.instagram.com/yaki.manihot" target="_blank" class="contact-link">
+                <img src="path/to/instagram-logo.png" alt="Instagram" class="contact-logo">
+                Instagram
+            </a>
+            
+            <a href="https://shopee.com/soon" target="_blank" class="contact-link">
+                <img src="path/to/shopee-logo.png" alt="Shopee" class="contact-logo">
+                Shopee
+            </a>
+        </div>
     </div>
 
+
+
+
+<script src="../static/js/script.js"></script>   
 </body>
 </html>
